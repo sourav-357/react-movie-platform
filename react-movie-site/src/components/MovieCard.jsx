@@ -1,8 +1,9 @@
 
+
 import React from 'react'
 
 
-const MovieCard = ({movie}) => {
+const MovieCard = ({ movie }) => {
 
     function onfavouriteClick() {
         alert("clicked");
