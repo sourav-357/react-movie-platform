@@ -6,7 +6,21 @@ import './App.css'
 function App() {
 
   return (
-    <div></div>
+    <>
+      <div>
+        hello world
+      </div>
+    
+      <Text/>
+    </>
+  )
+}
+
+function Text(params) {
+  return (
+    <div>
+      hello world from another function
+    </div>
   )
 }
 
